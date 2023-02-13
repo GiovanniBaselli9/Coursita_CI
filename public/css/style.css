@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.navbar-brand {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 160px;
+    background: url(../img/pretty-2-th.jpg) center center no-repeat;
+}
+
+.navbar-default {
+    background-color: #e5f6f7;
+    border-color: #357ebd;
+    position: fixed;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #7cc2ff;
+    z-index: 1;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.header-sezione {
+    border-bottom: 2px solid #357ebd;
+    margin-bottom: 2em;
+    padding-bottom: 0.5em;
+    font-family: 'Rockwell';
+    font-size: 2em;
+    color: #002749;
+}
+
+.invalid-input {
+    color: #bd2626;
+    font-weight: bold;
+}
+
+.form-group.required:after {
+    content: " *";
+    color: red;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.clock-container {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .clock-separator {
+    padding: 0 10px;
+  }
+  
+
+footer {
+    background-color: #b2dfe0;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.thumbnail img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    
+  }
+
+  .thumbnail-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3cc47e;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  section {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    padding: 50px 0;
+    border: 1px solid #ddd;
+    background-color: #dafaf1;
+  }
+
+  section img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-professor {
+    background-color: #f2f9a2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 0;
+    border: 1px solid #b3bf33;
+  }
+
+  .section-search {
+    background-color: #fac1ff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #af33bf;
+  }
+
+  .review-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .reviewer-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reviewer-caption {
+    display: inline-block;
+    font-style: italic;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+
+  .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .card-student{
+    background-color: #b4ffa7;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #72fb9964;
+    border-style: double;
+  }
+
+  .card-professor{
+    background-color: #f3fc93;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: #d5ff2c64;
+    border-style: double;
+  }
+
+  .jumbotron{
+    margin-bottom: 60px;
+  }
+
+
+  .cloud{
+    width: 7%; 
+    height: auto; 
+    position: fixed;
+    z-index: 1;
+    bottom: 2%;
+    right: 1%;
+  }
+
+  .cloud:hover{
+    width: 8%; 
+    height: auto; 
+    position: fixed;
+    z-index: 1;
+    bottom: 2%;
+    right: 1%;
+  }
+
+  #progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #ddd;
+    z-index: 2;
+  }
+  
+  #progress-bar {
+    height: 100%;
+    background-color: #4CAF50;
+  }
+  
+  textarea {
+    overflow: auto;
+    resize: vertical;
+    max-height: 200px;
+    min-height: 100px;
+  }
+
+  .course-logo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .breadcrumb {
+    background-color: #f2f9a2;
+    border: 1px solid #f4ff7b;
+    border-radius: 5px;
+    margin-top: 80px;
+  }
